@@ -21,7 +21,3 @@ Requires CMake 3.8+ and a C++20 compiler. SDL2 and SDL2_ttf are fetched automati
 cmake -S . -B build
 cmake --build build --config Release
 ```
-
-## Resources
-
-Place model files under `CPU_Renderer/resources/obj/`. The build system copies the resources directory next to the executable automatically.
