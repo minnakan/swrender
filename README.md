@@ -2,6 +2,8 @@
 
 A CPU software rasterizer written in C++. No GPU — every stage of the pipeline runs on the CPU.
 
+![screenshot](screenshot.png)
+
 ## Features
 
 - Perspective-correct attribute interpolation
@@ -10,17 +12,6 @@ A CPU software rasterizer written in C++. No GPU — every stage of the pipeline
 - Shadow mapping (orthographic light, depth bias)
 - Screen-space ambient occlusion (SSAO) with box blur
 - Interactive camera — orbit, pan, zoom
-
-## Controls
-
-| Input | Action |
-|---|---|
-| Left drag | Orbit |
-| Scroll / `+` `-` | Zoom |
-| Shift + arrows | Pan |
-| Arrows | Orbit |
-| `R` | Reset camera |
-| `` ` `` | Toggle stats overlay |
 
 ## Building
 
